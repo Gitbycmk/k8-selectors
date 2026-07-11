@@ -16,7 +16,7 @@ spec:
           - key: disktype
             operator: In
             values:
-            - ssd
+            - us-east-1d
   containers:
   - name: nginx
     image: nginx
