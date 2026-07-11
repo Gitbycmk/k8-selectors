@@ -13,10 +13,6 @@ spec:
             operator: In
             values:
             - us-east-1d
-          - key: disktype
-            operator: In
-            values:
-            - us-east-1d
   containers:
   - name: nginx
     image: nginx
